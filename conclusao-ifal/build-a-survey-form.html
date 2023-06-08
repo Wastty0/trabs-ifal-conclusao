@@ -1,0 +1,195 @@
+﻿** start of undefined **
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="basf.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Questionário de Escolaridade</h1>
+        <p id="description" class="description text-center">
+          Diga-nos o seu nivel de escolaridade
+        </p>
+      </header>
+
+      <form id="survey-form">
+        <div class="form-group">
+
+          <label id="name-label" for="name">Nome Completo</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control" 
+            placeholder="Digite o seu nome aqui" required/>
+        </div>
+
+        <div class="form-group">
+          <label id="email-label" for="email">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Digite o seu e-mail aqui" required
+          />
+        </div>
+
+        <div class="form-group">
+          <label id="number-label" for="number">Idade</label>
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="12"
+            max="99"
+            class="form-control"
+            placeholder="Digite a sua idade aqui" required
+          />
+        </div>
+
+        <div class="form-group">
+          <p>Qual das opções abaixo melhor descreve sua escolaridade atual?</p>
+
+          <select id="dropdown" name="esc" class="form-control" required>
+
+            <option disabled selected value>Selecione um</option>
+            <option value="fund-incomp">Fundantal Incompleto</option>
+            <option value="fund-comp">Fundamental Completo</option>
+            <option value="em-incomp">Ensino Médio Incompleto</option>
+            <option value="em-comp">Ensino Médio Completo</option>
+            <option value="grad">Graduação</option>
+            <option value="posgrad">Pós-Graduação</option>
+            <option value="mest">Mestrado</option>
+            <option value="dout">Doutorado</option>
+            <option value="posdout">Pós-Doutorado</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Você se sente realizado com os seus estudos?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Extremamente realizado</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Mediamente realizado</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Não realizado</label
+          >
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Medianamente irrealizado</label
+          >
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Extremamente irrealizado</label
+          >
+        </div>
+
+
+        <div class="form-group">
+          <p>
+            O que você acha que faltou durante seu processo educacional?
+            <span class="clue">(Marque todas as opções que se aplicarem)</span>
+          </p>
+
+          <label
+            ><input
+              name="prefer"
+              value="acesso"
+              type="checkbox"
+              class="input-checkbox"
+            />Acessibilidade</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="docentes"
+              type="checkbox"
+              class="input-checkbox"
+            />Dialogo com os docentes</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="discentes"
+              type="checkbox"
+              class="input-checkbox"
+            />Dialogo com os discentes</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="materiais"
+              type="checkbox"
+              class="input-checkbox"
+            />Materiais</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="bibliograf"
+              type="checkbox"
+              class="input-checkbox"
+            />Bibliografia</label
+          >
+          
+        </div>
+
+        <div class="form-group">
+          <p>Alguma sugestão para os problemas ditos anteriormente?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            value="ideias"
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Enviar
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
